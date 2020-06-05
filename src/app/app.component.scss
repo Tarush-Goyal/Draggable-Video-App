@@ -1,0 +1,35 @@
+.example-list{
+  width: 250px;
+  border: solid 3px #ccc;
+  height: 400px;
+  display: block;
+  background: white;
+  cursor:pointer;
+}
+
+.cdk-drag-preview {
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.cdk-drag-placeholder {
+  opacity: 0;
+}
+
+.cdk-drag-animating {
+  transition: transform 250ms ease;
+}
+
+.example-list.cdk-drop-list-dragging .example-box:not(.cdk-drag-placeholder) {
+  transition: transform 250ms ease;
+}
+
+.overlay{
+  z-index: 1000;
+}
+
+.Video {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+}
